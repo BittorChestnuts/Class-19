@@ -1,0 +1,12 @@
+.MovieCard{
+    background-color: rgb(65, 64, 63);
+    padding: 10px;
+    border-radius: 30px;
+    width: 600px;
+    color: black;
+    gap: 300px;
+}
+
+.btn-delete{
+    background-color: red;
+}

@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import './App.css'
-import MovieList2 from './components/MoviesList2';
+
+import MoviesList3 from './components/MoviesList3';
 
 
 const App = () => { // This is also a functional component
@@ -8,7 +9,7 @@ const App = () => { // This is also a functional component
 
   return (
     <>
-      <MovieList2 />
+      <MoviesList3 />
     </>
   )
 }

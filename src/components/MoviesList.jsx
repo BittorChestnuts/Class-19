@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 // import the array of movie objects
 import moviesData from '../movies-data.json';
+import MovieCard from './MovieCard';
+
 
 function MovieList() {
     // Declare a state variable "movies"
@@ -13,6 +15,7 @@ function MovieList() {
             return "🏆"
         }
     };
+
     return (
         <div>
             <h2>Movie List</h2>

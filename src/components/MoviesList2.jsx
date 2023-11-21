@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 // import the array of movie objects
 import moviesData from '../movies-data.json';
+import MovieCard from './MovieCard';
+
 
 function MovieList2() {
     // Declare a state variable "movies"
